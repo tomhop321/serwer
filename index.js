@@ -28,7 +28,7 @@ const requestListener = function (req, res) {
 i++;
 }
 o++;
-  res.write(p +" " + i + "  " + o);
+  res.write(p +" " + i + " jjj " + o);
 
   //res.write(f);
   return res.end()
