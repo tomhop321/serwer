@@ -28,7 +28,8 @@ const requestListener = function (req, res) {
 i++;
 }
 o++;
-  res.write(p +" " + i + "strona internetowa burdelu pana W lokalizacja nowy sacz" + o);
+  res.write(p +" " + i + "strona internetowa burdelu pana W lokalizacja nowy 
+sacz" + o);
 
   //res.write(f);
   return res.end()
